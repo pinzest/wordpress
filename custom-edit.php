@@ -33,7 +33,7 @@ function do_cache_wpse_509()
     	 $account_posts  = get_children( 'post_parent=509&post_type=page' );
 
     	 // To include the parent ID in the query
-        	$c_ids = array( '509' );  
+        	$c_ids = array( '509' );   
 
         // Grab the children IDs
 	        foreach( $account_posts  as $acc  ):
