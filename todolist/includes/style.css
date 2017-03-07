@@ -1,0 +1,51 @@
+body{background: #f1f1f1;}
+.add_task_container,.edit_task_container{
+   
+    margin-left: -10px;
+}
+#new_task_title
+{    transition: border-color ease-in-out .15s,
+	box-shadow ease-in-out .15s ;
+}
+.task-progress{
+	margin-bottom:0px;
+}
+.edittask_btn{    padding: 0px 3px;}
+.success{
+
+	    background: #fff;
+    border-left: 4px solid #8bd28b;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+
+
+}
+.todol_wid_error{ background: #fff;
+    border-left: 4px solid #F44336;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;}
+
+.center{
+	text-align: center;
+	color: #b9b4b4;
+    padding: 10px 10px 36px 10px;
+}
+
+.task-panel-man{
+    border-color: #03a9f4;
+}
+.panel-primary>.task-panel-heading{
+
+        background-color: #03A9F4;
+        border-color: #03A9F4;
+        padding: 0px 15px;
+}
+.task-progress-bar{background: #0d210d}
+.loader{    width: 17px;
+    height: 17px;
+    visibility: hidden;
+}
