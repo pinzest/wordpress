@@ -1,0 +1,26 @@
+/* custom css */
+
+.current-menu-item{
+    background: #e85356 !important;
+        color: #ffffff !important;
+            -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 42px !important;
+
+}
+.current-menu-item a {
+	color: white !important;
+}
+
+h1{color: black !important;}
+
+.row .footer-bar
+{
+	float: left;
+}
+
+.footer-bar  .widget-title{
+
+color: #797171;
+}
