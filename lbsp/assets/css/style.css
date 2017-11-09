@@ -1,0 +1,27 @@
+body.page-two-column:not(.archive) #primary .entry-content{
+  float: none !important;
+  width:100% !important;
+}
+
+.book-form {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid lightgrey;
+    padding: 10px;
+    background: #fbfbfb;
+}
+h1.book-form-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.book-search-field {
+    width: 49%;
+    margin-top:10px;
+}
+.book-search-field input,.book-search-field select,.book-search-field textarea,.book-search-field button{ width:100%;}
+div .book-search-field:nth-child(odd){
+    float:left;
+}
+div .book-search-field:nth-child(even){
+    float:right;
+} 
